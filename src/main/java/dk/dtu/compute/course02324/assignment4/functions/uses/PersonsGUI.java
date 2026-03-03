@@ -187,6 +187,8 @@ public class PersonsGUI extends VBox {
                     update();
                 });
 
+        Button timeButton = new Button("Time passes");
+
         TextField indexField = new TextField();
         indexField.setPrefColumnCount(2);
         NonNegativeIntegerWatcher indexWatcher = new NonNegativeIntegerWatcher(indexField, 0); // FIXME could be done in a slightly nicer way
