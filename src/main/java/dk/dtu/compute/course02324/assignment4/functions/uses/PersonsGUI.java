@@ -243,6 +243,7 @@ public class PersonsGUI extends VBox {
                 indexAction,
                 sortButton,
                 clearButton,
+                timeButton,
                 mostFrequentNameLabel,
                 averageWeightLabel,
                 maxWeightLabel,
