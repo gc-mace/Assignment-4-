@@ -10,7 +10,7 @@ import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-// TODO Assignment 4a:
+// Assignment 4a:
 //  change the following imports for the standard Java Collections, here and everywhere
 // import dk.dtu.compute.course02324.assignment4.functions.types.List;
 // import dk.dtu.compute.course02324.assignment4.functions.implementations.ArrayList;
