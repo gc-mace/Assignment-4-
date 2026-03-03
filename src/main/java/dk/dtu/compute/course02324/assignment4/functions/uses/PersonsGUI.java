@@ -188,6 +188,23 @@ public class PersonsGUI extends VBox {
                 });
 
         Button timeButton = new Button("Time passes");
+        timeButton.setOnAction(e -> {
+
+            persons.replaceAll(p -> {
+                int newAge = p.getAge() + 1;
+                double newWeight = p.weight;
+
+                if (newAge > 30) {
+                    newWeight *= 1.08;
+                }
+
+                return new Person(p.name, newWeight, newAge);
+            });
+
+            persons.removeIf(p -> p.getAge() >= 99);
+
+            update();
+        });
 
         TextField indexField = new TextField();
         indexField.setPrefColumnCount(2);
